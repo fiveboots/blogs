@@ -1,17 +1,16 @@
 python读取一个英文文件，并记录每个单词出现的次数，降序输出
 sorted排序函数用法：
 
-按照value值降序排列：
-
+按照value值降序排列：(排序嘛，默认当然是从高到低)
 sorted(dict.items(),key=lambda k:k[1],reverse=True)
+
 按照value值升序排序：
-
 sorted(dict.items(),key=lambda k:k[1],reverse=False)或者sorted(dict.items(),key=lambda k:k[1])
+
 按照key值降序排列：
-
 sorted(dict.items(),key=lambda k:k[0],reverse=True)
-按照key值升序排列：
 
+按照key值升序排列：
 sorted(dict.items(),key=lambda k:k[0])或者sorted(dict.items(),key=lambda k:k[0],reverse=False)
 
 #-*- coding: utf-8 -*-
